@@ -1,4 +1,5 @@
 // pages/api/read.js
+// API for reading MongoDB data
 import { MongoClient } from 'mongodb';
 
 export default async function handler(req, res) {
